@@ -14,7 +14,7 @@ provider "google" {
 
 
 module "Terra-module_VPC" {
-  source = "./modules/Networking/module_VPC"
+  source = "./v1.0.0/modules/Networking/module_VPC"
   Network_name = "first-vpc"
   Network_Project_ID  = var.project
 }
